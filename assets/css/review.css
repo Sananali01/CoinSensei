@@ -1,0 +1,226 @@
+/* Google Fonts - Poppins */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+.para {
+  width: 65%;
+  margin-left: 17pc;
+  font-size: 20px;
+  font-weight: 1000;
+  color: black;
+}
+.para h6{
+  height: 33vh;
+    margin-top: 1pc;
+    font-size: 50px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    color: #5ec3e0;
+}
+
+.h6{
+  height: 33vh;
+    margin-top: 1pc;
+    font-size: 50px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    color: #5ec3e0;
+}
+.containers {
+  height: 80vh;
+  width: 100%;
+margin-top: 7pc;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #ffffff;
+}
+.testimonial {
+  position: relative;
+  max-width: 900px;
+  width: 100%;
+  padding: 50px 0;
+  overflow: hidden;
+}
+.testimonial .image {
+  height: 170px;
+  width: 170px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+.testimonial .slide {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  row-gap: 30px;
+  height: 100%;
+  width: 100%;
+}
+.slide p {
+  text-align: center;
+  padding: 0 160px;
+  font-size: 22px;
+  font-weight: 400;
+  color: #333;
+}
+.slide .quote-icon {
+  font-size: 30px;
+  color: #4070f4;
+}
+.slide .details {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.details .name {
+  font-size: 17px;
+  font-weight: 600;
+  color: #333;
+}
+.details .job {
+  font-size: 16px;
+  font-weight: 400;
+  color: #333;
+}
+/* swiper button css */
+.nav-btn {
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  transform: translateY(30px);
+  background-color: rgba(0, 0, 0, 0.1);
+  transition: 0.2s;
+}
+.nav-btn:hover {
+  background-color: rgba(0, 0, 0, 0.2);
+}
+.nav-btn::after,
+.nav-btn::before {
+  font-size: 20px;
+  color: #fff;
+}
+.swiper-pagination-bullet {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+.swiper-pagination-bullet-active {
+  background-color: #4070f4;
+}
+@media screen and (max-width: 768px) {
+  .containers {
+    height: 108vh;}
+  .slide p {
+    padding: 1 20px;
+  }
+  .nav-btn {
+    display: none;
+  }
+  .h6 {
+    height: 37vh;
+    margin-top: -63px;}
+}
+
+.pic{
+  justify-content: center;
+  align-items: center;
+
+  display: flex;
+  width: 203vh;
+}
+
+.pic img {
+  margin-left: 3pc;
+  width: 62%;
+  height: 52%;
+}
+
+@media (max-width: 1440px){
+  body,html{
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+  }
+  .pic img {
+    margin-left: 3pc;
+    width: 90%;
+    height: 52%;
+  }
+}
+
+ 
+@media  (min-width: 768px) and (max-width: 1024px)
+{
+  .para{
+    margin-top: 3pc;
+    margin-left: 10pc;
+  }
+  .containers {
+    height: 120vh;
+}.pic img {
+  margin-left: 3pc;
+  width: 88%;
+  height: 52%;
+}
+
+}
+ 
+@media  (min-width: 425px) and (max-width: 767px)
+{
+  .para {
+    margin-top: 3pc;
+    margin-left: 7pc;
+}
+  .containers {
+    height: 140vh;
+    margin-top: 130px;
+    display: block;
+
+}.pic img {
+  margin-left: -1pc;
+  width: 33%;
+  margin-top: -30px;
+  height: 42%;
+}
+}
+@media  (min-width: 375px) and (max-width: 424px)
+{
+  .para {
+    margin-top: 3pc;
+    margin-left: 4pc;
+}
+  .containers {
+    height: 140vh;
+    margin-top: 130px;
+    display: block;
+
+}.pic img {
+  margin-left: -1pc;
+  width: 29%;
+  margin-top: 9px;
+  height: 42%;
+}
+}
+@media  (min-width: 300px) and (max-width:374px)
+{
+  .para {
+    margin-top: 6pc;
+    margin-left: 4pc;
+}
+  .containers {
+    height: 135vh;
+    margin-top: 130px;
+    display: block;
+
+}
+.pic{
+  width: 38vh;
+}
+}
